@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   </head>
   <body>
+
   {% include 'home/navbar.html' %}
-  {% include 'login/loginbody.html' %}
-    {% block content %}
 
+  <div class="columns">
+  <div class="column">
 
-    {% endblock content %}
+  </div>
+  <div class="column">
+      {% include 'login/loginbody.html' %}
+
+  </div>
+  <div class="column">
+  </div>
+</div>
+
     <h5>Our footer</h5>
 
   </body>
